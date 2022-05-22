@@ -26,7 +26,7 @@ Commands for running smake and building afterwards.
 #STLINK V2 and V2.1
 ATTRS{idProduct}=="3748", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"
 > sudo service udev restart
-* Now there are 2 Options ahead
+* Now there are 3 Options ahead
    * You can use openocd from the terminal and telnet to local host 4444:
       > openocd -f "board/your_board_config_file.cfg"
       * in an other terminal now:
@@ -34,11 +34,18 @@ ATTRS{idProduct}=="3748", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"
       * Issue Commands like this in sequence:
  
       > init
+      > 
       > reset init
+      > 
       > halt
+      > 
       > flash write_image erase myprogram.elf
+      > 
       > exit
-
+   * You can also open GDB debugger in another terminal:
+      > arm-none-eabi-gdb myprogram.elf
+   * Third option is to just flash the Board with the hex file, this invokes a default openocd script that performs program/verify/reset the target and optionally shutdown:
+   >  openocd -f board/st_nucleo_l073rz.cfg -c "program nucleo_l073rz_initialize.hex verify reset exit"
 
 
 ## future steps
