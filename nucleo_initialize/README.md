@@ -16,6 +16,30 @@ Commands for running smake and building afterwards.
 * make -G "Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE=../arm-none-eabi-gcc.cmake -DCMAKE_BUILD_TYPE=Debug ..
 * make -j4 OR cmake --build . -- -j 4
 
+## flashing
+* download OpenOCD
+> sudo apt-get install openocd
+* Try finding your stm board config file in Usr/share/openocd/scripts/board/xxxx, download from the web if necessary.
+* Create rules for the stlink programmer:
+> sudo nano /etc/udev/rules.d/stlink.rules
+* write the following in the file, idProduct,idVendor can be different in your case, trying finding it using *lsusb*
+#STLINK V2 and V2.1
+ATTRS{idProduct}=="3748", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"
+> sudo service udev restart
+* Now there are 2 Options ahead
+   * You can use openocd from the terminal and telnet to local host 4444:
+      > openocd -f "board/your_board_config_file.cfg"
+      * in an other terminal now:
+      > telnet localhost 4444
+      * Issue Commands like this in sequence:
+      > init
+      > reset init
+      > halt
+      > flash write_image erase myprogram.elf
+      > exit
+
+
+
 ## future steps
 
 * Use C++ code and a c++ compiler to wrap it around the C code.
