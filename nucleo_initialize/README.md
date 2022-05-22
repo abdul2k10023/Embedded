@@ -32,6 +32,7 @@ ATTRS{idProduct}=="3748", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"
       * in an other terminal now:
       > telnet localhost 4444
       * Issue Commands like this in sequence:
+ 
       > init
       > reset init
       > halt
