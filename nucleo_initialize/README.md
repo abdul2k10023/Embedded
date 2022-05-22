@@ -24,7 +24,7 @@ Commands for running smake and building afterwards.
 > sudo nano /etc/udev/rules.d/stlink.rules
 * write the following in the file, idProduct,idVendor can be different in your case, trying finding it using *lsusb*
 
-
+KERNEL=="tty[A-Z]*[0-9]", MODE="0666"
 #STLINK V2 and V2.1
 ATTRS{idProduct}=="3748", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"
 
