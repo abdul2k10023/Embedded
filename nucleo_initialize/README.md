@@ -50,7 +50,7 @@ ATTRS{idProduct}=="3748", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"
    * You can also open GDB debugger in another terminal:
       > arm-none-eabi-gdb myprogram.elf
    * Third option is to just flash the Board with the hex file, this invokes a default openocd script that performs program/verify/reset the target and optionally shutdown:
-   >  openocd -f board/st_nucleo_l073rz.cfg -c "program nucleo_l073rz_initialize.hex verify reset exit"
+      >  openocd -f board/st_nucleo_l073rz.cfg -c "program nucleo_l073rz_initialize.hex verify reset exit"
 
 
 ## future steps
