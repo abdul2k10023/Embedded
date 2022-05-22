@@ -23,8 +23,11 @@ Commands for running smake and building afterwards.
 * Create rules for the stlink programmer:
 > sudo nano /etc/udev/rules.d/stlink.rules
 * write the following in the file, idProduct,idVendor can be different in your case, trying finding it using *lsusb*
+
+
 #STLINK V2 and V2.1
 ATTRS{idProduct}=="3748", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"
+
 > sudo service udev restart
 * Now there are 3 Options ahead
    * You can use openocd from the terminal and telnet to local host 4444:
