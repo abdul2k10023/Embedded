@@ -1,2 +1,3 @@
 # Embedded
-all the DIY projects related to embedded
+## All the DIY projects related to embedded
+## go into the projects to find more ;-)
