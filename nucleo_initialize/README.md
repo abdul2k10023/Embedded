@@ -13,7 +13,7 @@
 ## cmake
 
 Commands for running cmake and building afterwards.
-* make -G "Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE=../arm-none-eabi-gcc.cmake -DCMAKE_BUILD_TYPE=Debug ..
+* cmake -G "Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE=../arm-none-eabi-gcc.cmake -DCMAKE_BUILD_TYPE=Debug ..
 * make -jx OR cmake --build . -- -jx
 
 ## flashing
