@@ -12,9 +12,9 @@
 
 ## cmake
 
-Commands for running smake and building afterwards.
+Commands for running cmake and building afterwards.
 * make -G "Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE=../arm-none-eabi-gcc.cmake -DCMAKE_BUILD_TYPE=Debug ..
-* make -j4 OR cmake --build . -- -j 4
+* make -jx OR cmake --build . -- -jx
 
 ## flashing
 * download OpenOCD
