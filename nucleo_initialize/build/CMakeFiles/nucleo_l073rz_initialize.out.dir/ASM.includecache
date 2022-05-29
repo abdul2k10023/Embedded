@@ -6,3 +6,5 @@
 
 #IncludeRegexTransform: 
 
+/home/abdul/workspace/Embedded/nucleo_initialize/startup_stm32l073xx.s
+

@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "Linux-5.13.0-35-generic")
+set(CMAKE_HOST_SYSTEM "Linux-5.13.0-41-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "5.13.0-35-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "5.13.0-41-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/home/abdul/workspace/Embedded/nucleo_initialize/arm-none-eabi-gcc.cmake")
