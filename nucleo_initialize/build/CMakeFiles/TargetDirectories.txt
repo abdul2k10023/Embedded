@@ -1,3 +1,0 @@
-/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles/rebuild_cache.dir
-/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles/edit_cache.dir
-/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles/nucleo_l073rz_initialize.out.dir
