@@ -57,18 +57,18 @@ include CMakeFiles/nucleo_l073rz_initialize.out.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 
-CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
-CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.obj: ../Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Src/main.c
+CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
+CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.obj: ../Src/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.obj -c /home/abdul/workspace/Embedded/nucleo_initialize/Src/main.cc
 
-CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/abdul/workspace/Embedded/nucleo_initialize/Src/main.c > CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.i
+CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abdul/workspace/Embedded/nucleo_initialize/Src/main.cc > CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.i
 
-CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abdul/workspace/Embedded/nucleo_initialize/Src/main.c -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.s
+CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdul/workspace/Embedded/nucleo_initialize/Src/main.cc -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.s
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj: ../Src/stm32l0xx_it.c
@@ -350,7 +350,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/startup_stm32l073xx.s.obj: ../startu
 
 # Object files for target nucleo_l073rz_initialize.out
 nucleo_l073rz_initialize_out_OBJECTS = \
-"CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.obj" \
+"CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.obj" \
 "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj" \
 "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.obj" \
 "CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj" \
@@ -377,7 +377,7 @@ nucleo_l073rz_initialize_out_OBJECTS = \
 # External object files for target nucleo_l073rz_initialize.out
 nucleo_l073rz_initialize_out_EXTERNAL_OBJECTS =
 
-nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.obj
+nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.obj
 nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj
 nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.obj
 nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
@@ -402,7 +402,7 @@ nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/sy
 nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/startup_stm32l073xx.s.obj
 nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/build.make
 nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable nucleo_l073rz_initialize.out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable nucleo_l073rz_initialize.out"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nucleo_l073rz_initialize.out.dir/link.txt --verbose=$(VERBOSE)
 	arm-none-eabi-size nucleo_l073rz_initialize.out
 	arm-none-eabi-objcopy -O ihex nucleo_l073rz_initialize.out nucleo_l073rz_initialize.hex

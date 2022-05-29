@@ -67,7 +67,7 @@ int main(void)
 
   /* Initialize all configured peripherals */
 //  MX_GPIO_Init();
-  MX_USART2_UART_Init();
+//  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 //  pinInit(GPIO_init(5,A));
   ledInit();
@@ -82,6 +82,8 @@ int main(void)
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
 	  HAL_Delay(500);
 	  HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_5);
+	  HAL_Delay(500);
+
 
     /* USER CODE BEGIN 3 */
   }
@@ -203,11 +205,11 @@ void SystemClock_Config(void)
 //
 //}
 //
-///* USER CODE BEGIN 4 */
-//
-///* USER CODE END 4 */
-//
-///**
+/* USER CODE BEGIN 4 */
+
+/* USER CODE END 4 */
+
+/**
   * @brief  This function is executed in case of error occurrence.
   * @retval None
   */
@@ -258,7 +260,7 @@ void ledInit(){
 	  __HAL_RCC_GPIOA_CLK_ENABLE();
 	//gpio_config
 	  ledStruct.Pin = GPIO_PIN_5;
-	  ledStruct.Mode = GPIOA; //pushPull mode,O/P
+	  ledStruct.Mode = GPIO_MODE_OUTPUT_PP; //pushPull mode,O/P
 	  ledStruct.Pull = GPIO_NOPULL;
 	  ledStruct.Speed = GPIO_SPEED_FREQ_LOW;
 	HAL_GPIO_Init(GPIOA, &ledStruct);

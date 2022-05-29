@@ -3,6 +3,7 @@
 
 # compile ASM with /usr/local/bin/arm-none-eabi-gcc
 # compile C with /usr/local/bin/arm-none-eabi-gcc
+# compile CXX with /usr/local/bin/arm-none-eabi-g++
 ASM_FLAGS = -g   -mcpu=cortex-m0plus -mthumb -mfloat-abi=softfp -fdata-sections -ffunction-sections -Wall -Og
 
 ASM_DEFINES = -DSTM32L073xx -DUSE_HAL_DRIVER
@@ -14,4 +15,10 @@ C_FLAGS = -g   -mcpu=cortex-m0plus -mthumb -mfloat-abi=softfp -fdata-sections -f
 C_DEFINES = -DSTM32L073xx -DUSE_HAL_DRIVER
 
 C_INCLUDES = -I/home/abdul/workspace/Embedded/nucleo_initialize/Inc -I/home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Inc -I/home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I/home/abdul/workspace/Embedded/nucleo_initialize/Drivers/CMSIS/Device/ST/STM32L0xx/Include -I/home/abdul/workspace/Embedded/nucleo_initialize/Drivers/CMSIS/Include 
+
+CXX_FLAGS = -g   -mcpu=cortex-m0plus -mthumb -mfloat-abi=softfp -fdata-sections -ffunction-sections -Wall -Og
+
+CXX_DEFINES = -DSTM32L073xx -DUSE_HAL_DRIVER
+
+CXX_INCLUDES = -I/home/abdul/workspace/Embedded/nucleo_initialize/Inc -I/home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Inc -I/home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I/home/abdul/workspace/Embedded/nucleo_initialize/Drivers/CMSIS/Device/ST/STM32L0xx/Include -I/home/abdul/workspace/Embedded/nucleo_initialize/Drivers/CMSIS/Include 
 

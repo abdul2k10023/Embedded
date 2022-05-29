@@ -17,7 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj"
   "CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj"
   "CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj"
-  "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.obj"
+  "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.obj"
   "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.obj"
   "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj"
   "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/system_stm32l0xx.c.obj"
@@ -27,6 +27,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang ASM C)
+foreach(lang ASM C CXX)
   include(CMakeFiles/nucleo_l073rz_initialize.out.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -2,6 +2,7 @@
 set(CMAKE_DEPENDS_LANGUAGES
   "ASM"
   "C"
+  "CXX"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
@@ -42,7 +43,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c" "/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj"
   "/home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c" "/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj"
   "/home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c" "/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj"
-  "/home/abdul/workspace/Embedded/nucleo_initialize/Src/main.c" "/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.obj"
   "/home/abdul/workspace/Embedded/nucleo_initialize/Src/stm32l0xx_hal_msp.c" "/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.obj"
   "/home/abdul/workspace/Embedded/nucleo_initialize/Src/stm32l0xx_it.c" "/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj"
   "/home/abdul/workspace/Embedded/nucleo_initialize/Src/system_stm32l0xx.c" "/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/system_stm32l0xx.c.obj"
@@ -57,6 +57,25 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../Inc"
+  "../Drivers/STM32L0xx_HAL_Driver/Inc"
+  "../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy"
+  "../Drivers/CMSIS/Device/ST/STM32L0xx/Include"
+  "../Drivers/CMSIS/Include"
+  )
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/abdul/workspace/Embedded/nucleo_initialize/Src/main.cc" "/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.obj"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "STM32L073xx"
+  "USE_HAL_DRIVER"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Inc"
   "../Drivers/STM32L0xx_HAL_Driver/Inc"
   "../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy"

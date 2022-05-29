@@ -609,32 +609,32 @@ Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s:
 	$(MAKE) -f CMakeFiles/nucleo_l073rz_initialize.out.dir/build.make CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s
 .PHONY : Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s
 
-Src/main.obj: Src/main.c.obj
+Src/main.obj: Src/main.cc.obj
 
 .PHONY : Src/main.obj
 
 # target to build an object file
-Src/main.c.obj:
-	$(MAKE) -f CMakeFiles/nucleo_l073rz_initialize.out.dir/build.make CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.obj
-.PHONY : Src/main.c.obj
+Src/main.cc.obj:
+	$(MAKE) -f CMakeFiles/nucleo_l073rz_initialize.out.dir/build.make CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.obj
+.PHONY : Src/main.cc.obj
 
-Src/main.i: Src/main.c.i
+Src/main.i: Src/main.cc.i
 
 .PHONY : Src/main.i
 
 # target to preprocess a source file
-Src/main.c.i:
-	$(MAKE) -f CMakeFiles/nucleo_l073rz_initialize.out.dir/build.make CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.i
-.PHONY : Src/main.c.i
+Src/main.cc.i:
+	$(MAKE) -f CMakeFiles/nucleo_l073rz_initialize.out.dir/build.make CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.i
+.PHONY : Src/main.cc.i
 
-Src/main.s: Src/main.c.s
+Src/main.s: Src/main.cc.s
 
 .PHONY : Src/main.s
 
 # target to generate assembly for a file
-Src/main.c.s:
-	$(MAKE) -f CMakeFiles/nucleo_l073rz_initialize.out.dir/build.make CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.c.s
-.PHONY : Src/main.c.s
+Src/main.cc.s:
+	$(MAKE) -f CMakeFiles/nucleo_l073rz_initialize.out.dir/build.make CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.s
+.PHONY : Src/main.cc.s
 
 Src/stm32l0xx_hal_msp.obj: Src/stm32l0xx_hal_msp.c.obj
 
