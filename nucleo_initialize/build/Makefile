@@ -609,6 +609,33 @@ Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s:
 	$(MAKE) -f CMakeFiles/nucleo_l073rz_initialize.out.dir/build.make CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s
 .PHONY : Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.s
 
+Src/gpio_init.obj: Src/gpio_init.cc.obj
+
+.PHONY : Src/gpio_init.obj
+
+# target to build an object file
+Src/gpio_init.cc.obj:
+	$(MAKE) -f CMakeFiles/nucleo_l073rz_initialize.out.dir/build.make CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.obj
+.PHONY : Src/gpio_init.cc.obj
+
+Src/gpio_init.i: Src/gpio_init.cc.i
+
+.PHONY : Src/gpio_init.i
+
+# target to preprocess a source file
+Src/gpio_init.cc.i:
+	$(MAKE) -f CMakeFiles/nucleo_l073rz_initialize.out.dir/build.make CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.i
+.PHONY : Src/gpio_init.cc.i
+
+Src/gpio_init.s: Src/gpio_init.cc.s
+
+.PHONY : Src/gpio_init.s
+
+# target to generate assembly for a file
+Src/gpio_init.cc.s:
+	$(MAKE) -f CMakeFiles/nucleo_l073rz_initialize.out.dir/build.make CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.s
+.PHONY : Src/gpio_init.cc.s
+
 Src/main.obj: Src/main.cc.obj
 
 .PHONY : Src/main.obj
@@ -789,6 +816,9 @@ help:
 	@echo "... Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.obj"
 	@echo "... Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.i"
 	@echo "... Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.s"
+	@echo "... Src/gpio_init.obj"
+	@echo "... Src/gpio_init.i"
+	@echo "... Src/gpio_init.s"
 	@echo "... Src/main.obj"
 	@echo "... Src/main.i"
 	@echo "... Src/main.s"

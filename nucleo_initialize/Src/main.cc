@@ -20,10 +20,12 @@
 #include "main.h"
 #include <stdint.h>
 #include "stm32l0xx_hal.h"
+#include "../Inc/gpio_init.h"
 
 
 /* Private variables ---------------------------------------------------------*/
  UART_HandleTypeDef huart2;
+ gpioInit gpio5pa;
 
 //#define _PIN(pi) CONCAT(GPIO_PIN_,pi)
 //#define _PORT(po) CONCAT(GPIO_,po)
@@ -178,33 +180,7 @@ void SystemClock_Config(void)
   * @param None
   * @retval None
   */
-//static void MX_GPIO_Init(void)
-//{
-//  GPIO_InitTypeDef GPIO_InitStruct = {0};
-//
-//  /* GPIO Ports Clock Enable */
-//  __HAL_RCC_GPIOC_CLK_ENABLE();
-//  __HAL_RCC_GPIOH_CLK_ENABLE();
-//  __HAL_RCC_GPIOA_CLK_ENABLE();
-//
-//  /*Configure GPIO pin Output Level */
-//  HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
-//
-//  /*Configure GPIO pin : B1_Pin */
-//  GPIO_InitStruct.Pin = B1_Pin;
-//  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
-//  GPIO_InitStruct.Pull = GPIO_NOPULL;
-//  HAL_GPIO_Init(B1_GPIO_Port, &GPIO_InitStruct);
-//
-//  /*Configure GPIO pin : LD2_Pin */
-//  GPIO_InitStruct.Pin = LD2_Pin;
-//  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-//  GPIO_InitStruct.Pull = GPIO_NOPULL;
-//  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-//  HAL_GPIO_Init(LD2_GPIO_Port, &GPIO_InitStruct);
-//
-//}
-//
+
 /* USER CODE BEGIN 4 */
 
 /* USER CODE END 4 */
@@ -242,27 +218,11 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 #endif /* USE_FULL_ASSERT */
 
-//void pinInit(uint32_t pin, char port){
-//
-//	_PIN(pin)
-//	CLK_ENABLE(port); // enable GPIO clock
-//
-//
-//	//gpio_config
-//	pinPortStruct.Pin = pin;
-//	pinPortStruct.Mode = port; //pushPull mode,O/P
-//	pinPortStruct.Pull = GPIO_NOPULL;
-//	pinPortStruct.Speed = GPIO_SPEED_FREQ_LOW;
-//	HAL_GPIO_Init(GPIOA, &LED_gpiostruct);
-//}
 void ledInit(){
-	GPIO_InitTypeDef ledStruct;
+	GPIO_InitTypeDef gpio5a;
 	  __HAL_RCC_GPIOA_CLK_ENABLE();
 	//gpio_config
-	  ledStruct.Pin = GPIO_PIN_5;
-	  ledStruct.Mode = GPIO_MODE_OUTPUT_PP; //pushPull mode,O/P
-	  ledStruct.Pull = GPIO_NOPULL;
-	  ledStruct.Speed = GPIO_SPEED_FREQ_LOW;
-	HAL_GPIO_Init(GPIOA, &ledStruct);
+	  gpio5pa.gpioInit(gpio5a, GPIO_PIN_5, GPIO_MODE_OUTPUT_PP);
+
 }
 

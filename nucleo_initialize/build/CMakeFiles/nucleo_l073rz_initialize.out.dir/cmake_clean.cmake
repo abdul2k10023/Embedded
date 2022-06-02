@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj"
   "CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj"
   "CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj"
+  "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.obj"
   "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.obj"
   "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.obj"
   "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj"

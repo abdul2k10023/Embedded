@@ -70,9 +70,22 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.s"
 	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdul/workspace/Embedded/nucleo_initialize/Src/main.cc -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.s
 
+CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
+CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.obj: ../Src/gpio_init.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.obj -c /home/abdul/workspace/Embedded/nucleo_initialize/Src/gpio_init.cc
+
+CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abdul/workspace/Embedded/nucleo_initialize/Src/gpio_init.cc > CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.i
+
+CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdul/workspace/Embedded/nucleo_initialize/Src/gpio_init.cc -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.s
+
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj: ../Src/stm32l0xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Src/stm32l0xx_it.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.s: cmake_force
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.obj: ../Src/stm32l0xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Src/stm32l0xx_hal_msp.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.s: cmake_for
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.i: cmake_force
@@ -150,7 +163,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.i: cmake_force
@@ -163,7 +176,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.i: cmake_force
@@ -176,7 +189,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.i: cmake_force
@@ -189,7 +202,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.i: cmake_force
@@ -202,7 +215,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.i: cmake_force
@@ -215,7 +228,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c.i: cmake_force
@@ -228,7 +241,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.i: cmake_force
@@ -241,7 +254,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.i: cmake_force
@@ -254,7 +267,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.i: cmake_force
@@ -267,7 +280,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.i: cmake_force
@@ -280,7 +293,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.i: cmake_force
@@ -293,7 +306,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.i: cmake_force
@@ -306,7 +319,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.i: cmake_force
@@ -319,7 +332,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.c.obj: ../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.c.i: cmake_force
@@ -332,7 +345,7 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/system_stm32l0xx.c.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/system_stm32l0xx.c.obj: ../Src/system_stm32l0xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/system_stm32l0xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/system_stm32l0xx.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/system_stm32l0xx.c.obj   -c /home/abdul/workspace/Embedded/nucleo_initialize/Src/system_stm32l0xx.c
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/system_stm32l0xx.c.i: cmake_force
@@ -345,12 +358,13 @@ CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/system_stm32l0xx.c.s: cmake_forc
 
 CMakeFiles/nucleo_l073rz_initialize.out.dir/startup_stm32l073xx.s.obj: CMakeFiles/nucleo_l073rz_initialize.out.dir/flags.make
 CMakeFiles/nucleo_l073rz_initialize.out.dir/startup_stm32l073xx.s.obj: ../startup_stm32l073xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building ASM object CMakeFiles/nucleo_l073rz_initialize.out.dir/startup_stm32l073xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building ASM object CMakeFiles/nucleo_l073rz_initialize.out.dir/startup_stm32l073xx.s.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/nucleo_l073rz_initialize.out.dir/startup_stm32l073xx.s.obj -c /home/abdul/workspace/Embedded/nucleo_initialize/startup_stm32l073xx.s
 
 # Object files for target nucleo_l073rz_initialize.out
 nucleo_l073rz_initialize_out_OBJECTS = \
 "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.obj" \
+"CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.obj" \
 "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj" \
 "CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.obj" \
 "CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj" \
@@ -378,6 +392,7 @@ nucleo_l073rz_initialize_out_OBJECTS = \
 nucleo_l073rz_initialize_out_EXTERNAL_OBJECTS =
 
 nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.obj
+nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.obj
 nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_it.c.obj
 nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/stm32l0xx_hal_msp.c.obj
 nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c.obj
@@ -402,7 +417,7 @@ nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/sy
 nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/startup_stm32l073xx.s.obj
 nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/build.make
 nucleo_l073rz_initialize.out: CMakeFiles/nucleo_l073rz_initialize.out.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable nucleo_l073rz_initialize.out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable nucleo_l073rz_initialize.out"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nucleo_l073rz_initialize.out.dir/link.txt --verbose=$(VERBOSE)
 	arm-none-eabi-size nucleo_l073rz_initialize.out
 	arm-none-eabi-objcopy -O ihex nucleo_l073rz_initialize.out nucleo_l073rz_initialize.hex

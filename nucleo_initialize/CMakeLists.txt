@@ -11,6 +11,7 @@ set(CMAKE_C_EXTENSIONS OFF)
 set(STM32CUBEMX_GENERATED_FILES
 
 	Src/main.cc
+	Src/gpio_init.cc
 	Src/stm32l0xx_it.c
 	Src/stm32l0xx_hal_msp.c
 	Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c

@@ -64,6 +64,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/abdul/workspace/Embedded/nucleo_initialize/Src/gpio_init.cc" "/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/gpio_init.cc.obj"
   "/home/abdul/workspace/Embedded/nucleo_initialize/Src/main.cc" "/home/abdul/workspace/Embedded/nucleo_initialize/build/CMakeFiles/nucleo_l073rz_initialize.out.dir/Src/main.cc.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
