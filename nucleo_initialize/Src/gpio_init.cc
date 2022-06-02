@@ -5,7 +5,7 @@
  *      Author: abdul haseeb
  */
 
-#include "gpio_init.h"
+#include "../Inc/gpio_init.h"
 #include "stm32l0xx_hal_gpio.h"
 
 

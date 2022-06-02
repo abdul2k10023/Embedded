@@ -81,9 +81,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+	  gpio5pa.writePin(GPIO_PIN_SET);
 	  HAL_Delay(500);
-	  HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_5);
+	  gpio5pa.togglePin();
 	  HAL_Delay(500);
 
 
