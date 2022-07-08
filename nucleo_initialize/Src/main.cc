@@ -25,14 +25,9 @@
 
 /* Private variables ---------------------------------------------------------*/
  UART_HandleTypeDef huart2;
- gpioInit gpio5pa;
-
-//#define _PIN(pi) CONCAT(GPIO_PIN_,pi)
-//#define _PORT(po) CONCAT(GPIO_,po)
-//#define varName(PIN,PORT) CONCAT(GPIO_PIN_##PIN,GPIO##PORT)
-//#define CLK_ENABLE(port) __HAL_RCC_GPIO##port##_CLK_ENABLE()
-//#define CONCAT(a,b) a##b
-
+GPIO_InitTypeDef gpio5a;
+//gpio_config
+gpioInit gpio5pa(gpio5a, GPIO_PIN_5, GPIO_MODE_OUTPUT_PP);
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
@@ -47,31 +42,19 @@ void SystemClock_Config(void);
   */
 int main(void)
 {
-  /* USER CODE BEGIN 1 */
 
-  /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
 
-  /* USER CODE BEGIN Init */
-
-  /* USER CODE END Init */
-
   /* Configure the system clock */
   SystemClock_Config();
 
-  /* USER CODE BEGIN SysInit */
-
-  /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
-//  MX_GPIO_Init();
-//  MX_USART2_UART_Init();
-  /* USER CODE BEGIN 2 */
-//  pinInit(GPIO_init(5,A));
+
   ledInit();
 
   /* USER CODE END 2 */
@@ -219,10 +202,8 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif /* USE_FULL_ASSERT */
 
 void ledInit(){
-	GPIO_InitTypeDef gpio5a;
+
 	  __HAL_RCC_GPIOA_CLK_ENABLE();
-	//gpio_config
-	  gpio5pa.gpioInit(gpio5a, GPIO_PIN_5, GPIO_MODE_OUTPUT_PP);
 
 }
 

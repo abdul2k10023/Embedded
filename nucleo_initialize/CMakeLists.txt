@@ -46,7 +46,9 @@ target_compile_definitions(${EXECUTABLE} PRIVATE
         )
 
 target_include_directories(${EXECUTABLE} PRIVATE
+
 	Inc
+	Inc/gpio_init.h
 	Drivers/STM32L0xx_HAL_Driver/Inc
 	Drivers/STM32L0xx_HAL_Driver/Inc/Legacy
 	Drivers/CMSIS/Device/ST/STM32L0xx/Include

@@ -5,12 +5,11 @@
  *      Author: abdul haseeb
  */
 
-#include "../Inc/gpio_init.h"
+#include "gpio_init.h"
 #include "stm32l0xx_hal_gpio.h"
 
 
-gpioInit::gpioInit(GPIO_InitTypeDef *gpioStruct, uint32_t *_pin,uint32_t *_mode, GPIO_TypeDef *_port,
-		uint32_t *_pull = GPIO_NOPULL ,uint32_t *_speed=GPIO_SPEED_FREQ_LOW)
+gpioInit::gpioInit(GPIO_InitTypeDef *gpioStruct, uint32_t *_pin,uint32_t *_mode)
 : pin(_pin),mode(_mode),pull(_pull),speed(_speed),port(_port)
 {
 
