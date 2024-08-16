@@ -43,6 +43,7 @@ add_executable(${EXECUTABLE} ${STM32CUBEMX_GENERATED_FILES})
 target_compile_definitions(${EXECUTABLE} PRIVATE
 	-DUSE_HAL_DRIVER
 	-DSTM32L073xx
+	-DCMAKE_C_COMPILER= "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\13.3 rel1\\bin\\arm-none-eabi-gcc.exe"
         )
 
 target_include_directories(${EXECUTABLE} PRIVATE

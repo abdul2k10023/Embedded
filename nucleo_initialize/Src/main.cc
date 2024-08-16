@@ -25,9 +25,7 @@
 
 /* Private variables ---------------------------------------------------------*/
  UART_HandleTypeDef huart2;
-GPIO_InitTypeDef gpio5a;
-//gpio_config
-gpioInit gpio5pa(gpio5a, GPIO_PIN_5, GPIO_MODE_OUTPUT_PP);
+
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
@@ -202,7 +200,10 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif /* USE_FULL_ASSERT */
 
 void ledInit(){
-
+  
+  GPIO_InitTypeDef gpio5a;
+  //gpio_config
+  gpioInit gpio5pa(gpio5a, GPIO_PIN_5, GPIO_MODE_OUTPUT_PP);
 	  __HAL_RCC_GPIOA_CLK_ENABLE();
 
 }
