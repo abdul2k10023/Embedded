@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "lora.h": "c",
+        "stm32l0xx_hal.h": "c"
+    }
+}
